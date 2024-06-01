@@ -55,13 +55,56 @@
 
 <body>
 
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top ">
+  <div class="container d-flex align-items-center justify-content-lg-between">
+
+    <h1 class="logo me-auto me-lg-0"><a href="index.html">UNVEILING<span> Cleopatra</span></a></h1>
+    
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+        <li class="dropdown"><a href="#about"> <span>STUDY OF THE DOMAIN</span><i class="bi bi-chevron-down"></i></a>
+        <ul>
+            <li><a href="#about">IDEA</a></li>
+            <li><a href="#items">ITEMS</a></li>
+            <li><a href="#textConv">TEXT CONVERSIONS</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#conceptualMap"> <span>KNOWLEDGE ORGANIZATION</span><i class="bi bi-chevron-down"></i></a>
+        <ul>
+            <li><a href="#conceptualMap">CONCEPTUAL MAP</a></li>
+            <li><a href="#erModel">E/R MODEL</a></li>
+            <li><a href="#metadataAnalysis">METADATA ANALYSIS</a></li>
+            <li><a href="#metadataAlignment">METADATA ALIGNMENT</a></li>
+            <li><a href="#theoreticalModel">THEORETICAL MODEL</a></li>
+            <li><a href="#enhancedERModel">ENHANCED E/R MODEL</a></li>
+            <li><a href="#conceptualModel">CONCEPTUAL MODEL</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown"><a href="#dataDescription"> <span>KNOWLEDGE REPRESENTATION</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#dataDescription">ITEMS DESCRIPTION</a></li>
+            <li><a href="#RDFProduction">RDF PRODUCTION</a></li>
+            <li><a href="#RDFVisualization">RDF VISUALIZATION</a></li>
+
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="#team">TEAM</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+
  <!-- ======= Home Section ======= -->
 <!-- Titolo, spiegazione del progetto e obiettivi LOD -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
   <div class="container" data-aos="fade-up">
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
       <div class="col-xl-6 col-lg-8">
-        <h1>BLA BLA <span style="color: #d28cbb;">Occidental Otaku</span></h1>
+        <h1>BLA BLA <span style="color: #d28cbb;">NAME OF THE PROJECT (we have to decide)</span></h1>
         <h2 class="abril-fatface-regular">Linked Open Data Project</h2>
       </div>
     </div>
@@ -249,11 +292,10 @@
           <h3>E/R MODEL</h3>
         </div>
           <p>
-            In this phase we visually translates the Conceptual Map into a <b>higher level of abstraction</b>. People, places, dates, and subjects are all displayed in this model and their interconnections are depicted as relationships.
+            At this stage, the Conceptual Map is elevated to a <b>more abstract level</b>. This model visually represents individuals, locations, timelines, and types, illustrating the connections between them through depicted relationships.
           </p>
-
           <p>
-            <img src="assets/img/er_model.jpg" class="img-fluid" alt="E/R Model" style="padding-top: 20px;">
+            <img src="assets/img/ER_model.png" class="img-fluid" alt="E/R Model" style="padding-top: 20px;">
           </p>
 
       </div>
@@ -813,8 +855,8 @@
               <div class="col-lg-12 col-md-12 portfolio-item filter-web">
                 <div class="portfolio-wrap">
                   <figure>
-                    <a href="assets/img/" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Theoretical Model"><i class="bx bx-expand" style="font-size:xx-large;"></i></a>
-                    <img src="assets/img/" class="img-fluid" alt="">
+                    <a href="assets/img/theoretical_model.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Theoretical Model"><i class="bx bx-expand" style="font-size:xx-large;"></i></a>
+                    <img src="assets/img/theoretical_model.png" class="img-fluid" alt="">
                   </figure>
                 </div>
               </div>
@@ -845,8 +887,8 @@
     
               <div>
                 <p>
-                  The <a href="#theoreticalModel">Theoretical Model</a>, produced according to natural language, is here translated following the Entity/Relationships approach into a <b>refined version</b> of the starting <a href="#erModel">E/R Model</a>. Once again, data are described thanks to a diagram that represents people, places, dates and subjects as <b>Entities</b> and their connections as <b>Relationships</b>.
-                </p>
+                  The <a href="#theoreticalModel">Theoretical Model</a>, initially crafted using natural language, is now articulated through the Entity/Relationship framework into an <b>enhanced iteration</b> of the initial <a href="#erModel">E/R Model</a>. This updated diagram systematically portrays individuals, locations, timelines, and types as <b>Entities</b>, highlighting their interrelations as <b>Relationships</b>.
+                </p>                
               </div>
     
               <div class="clients-slider swiper-container">
@@ -854,8 +896,8 @@
                   <div class="col-lg-12 col-md-12 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                       <figure>
-                        <a href="assets/img/enhance_er.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Enhanced E/R Model"><i class="bx bx-expand" style="font-size:xx-large;"></i></a>
-                        <img src="assets/img/enhance_er.jpg" class="img-fluid" alt="">
+                        <a href="assets/img/enhanced_ER.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Enhanced E/R Model"><i class="bx bx-expand" style="font-size:xx-large;"></i></a>
+                        <img src="assets/img/enhanced_ER.png" class="img-fluid" alt="">
                       </figure>
                     </div>
                   </div>
@@ -888,8 +930,8 @@
 
           <div>
             <p>
-              At this final stage, we move from the <a href="#theoreticalModel">Theoretical Model</a> to the formal representation provided in the <b>Conceptual Model</b>, we transition from the Theoretical Model to the Conceptual Model, employing an ontological approach for representing our domain and ensuring workflow coherence. Subjects, concepts and relationships outlined in the Theoretical Model are refactored with <b>classes</b> and <b>properties</b> taken from selected schemas, vocabularies, and ontologies. Furthermore, in order to provide disambiguation and to enhance the quality, interoperability, and utility of our linked data the team intended to reconcile relevant entities with authority-controlled forms provided by <b>DBpedia, Viaf, WorldCat, Pleiades.org, Geonames</b>.
-            </p>
+              In the concluding phase, the project advances from the <a href="#theoreticalModel">Theoretical Model</a> to a more structured <b>Conceptual Model</b>. This shift employs an ontological framework to represent our domain while maintaining consistency in our workflow. The entities, themes, and connections initially identified in the Theoretical Model are systematically reorganized into <b>classes</b> and <b>properties</b> derived from carefully chosen schemas, vocabularies, and ontologies. Additionally, to clarify ambiguities and enhance the accuracy, interoperability, and practicality of our linked data, our team has aligned significant entities with authoritative resources.
+            </p>            
              
           </div>
 
@@ -898,8 +940,8 @@
           		<div class="col-lg-12 col-md-12 portfolio-item filter-web">
                 <div class="portfolio-wrap">
                   <figure>
-                    <a href="assets/img/ConceptualModel.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Conceptual Model"><i class="bx bx-expand" style="font-size:xx-large;"></i></a>
-                    <img src="assets/img/ConceptualModel.png" class="img-fluid" alt="">
+                    <a href="assets/img/conceptual_model.png" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Conceptual Model"><i class="bx bx-expand" style="font-size:xx-large;"></i></a>
+                    <img src="assets/img/conceptual_model.png" class="img-fluid" alt="">
                   </figure>
                 </div>
               </div>
