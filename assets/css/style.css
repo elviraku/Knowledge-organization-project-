@@ -1104,7 +1104,7 @@ section {
 }
 
 .counts .image {
-  background: url("nana-jojo/assets/img/background.png") center center no-repeat;
+  background: url("../img/background.png") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -1678,25 +1678,25 @@ align-items: center;
 
 /* separatori con effetto immagine in background */
 .separatorOne {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("nana-jojo/assets/img/background.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.png") fixed center center;
   background-size: cover;
   padding: 200px 0;
 }
 
 .separatorTwo {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("nana-jojo/assets/img/background.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.png") fixed center center;
   background-size: cover;
   padding: 200px 0;
 }
 
 .separatorThree {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("nana-jojo/assets/img/background.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.png") fixed center center;
   background-size: cover;
   padding: 200px 0;
 }
 
 .separatorFour {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("nana-jojo/assets/img/background.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.png") fixed center center;
   background-size: cover;
   padding: 200px 0;
 }
